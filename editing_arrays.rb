@@ -1,6 +1,7 @@
 rainbow_colors = ["yellow", "default","light_cyan"]
 
 def change_rainbow_colors
+  rainbow_colors = ["yellow", "default","light_cyan"]
   rainbow_colors[0] = "red"
   return rainbow_colors[0]
   rainbow_colors[1] = "light_red"
@@ -9,7 +10,8 @@ def change_rainbow_colors
   return rainbow_colors[2]
 end
 
-return change_rainbow_colors 
+return change_rainbow_colors
+return rainbow_colors
 
 def add_colors
   rainbow_colors.push "green"
