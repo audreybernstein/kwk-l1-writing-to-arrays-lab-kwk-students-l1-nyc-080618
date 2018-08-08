@@ -8,7 +8,6 @@ def change_rainbow_colors
   puts rainbow_colors[1]
   rainbow_colors[2] = "light_yellow"
   puts rainbow_colors[2]
-  puts rainbow_colors
 end
 
 
